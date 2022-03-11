@@ -1,1 +1,1 @@
-# sam-tri3
+# Sam Duggirala Tri 3
