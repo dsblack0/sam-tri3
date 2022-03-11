@@ -6,7 +6,7 @@
 ### Notes on linking Replit and Github Repo
 hacks.sh file
 - javac jacks/*.java
-- java hascks/Menu
+- java hacks/Menu
 - rm hacks/*.class
 
 
