@@ -1,4 +1,9 @@
+---
+layout: default
+---
 {% include navigation.html %}
+
+{% include_relative README.md %}
 
 # Sam Tri 3
 
