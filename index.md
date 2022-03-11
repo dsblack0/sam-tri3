@@ -1,3 +1,5 @@
+{% include navigation.html %}
+
 # Sam Tri 3
 
 ## Class Notes
