@@ -23,12 +23,14 @@ public class IntByReference {
   // method to swap the two numbers if the second is smaller than the first
   public static void swapToLowHighOrder(IntByReference num2) {
     b = num2;
+    //check conditions if second number is less than first number
     if (b.value < a.value) {
+      //switch two numbers
       b = a;
       a = num2;
     }
   }
-
+  //toString method to return the value of the number
   public String toString() {
     return String.valueOf(value);
   }

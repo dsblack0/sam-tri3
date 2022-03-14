@@ -23,27 +23,34 @@ public class Matrix {
 
     public String toString() {
       StringBuilder matrixBuild = new StringBuilder("");
+      //traverse forwards through 2D array
       for (int row=0; row < matrix.length; row++) {
         StringBuilder rowBuild = new StringBuilder("");
         for (int col=0; col < matrix[row].length; col++) {
+          //to disinclude the "-1" or any other nonpositive integer
           if (matrix[row][col] < 0) {
             rowBuild.append("  ");
           } else {
+            //convert the integers to hex and add value to line
            rowBuild.append(Integer.toHexString(matrix[row][col]) + " "); 
           }
         }
+        //add each row as separate line
         matrixBuild.append(rowBuild + "\n");
       }
-
+      //traverse backwards through 2D array
      for (int row=matrix.length-1; row >=0 ; row--) {
         StringBuilder rowBuild = new StringBuilder("");
         for (int col=matrix[row].length-1; col >= 0; col--) {
+          //to disinclude the "-1" or any other nonpositive integer
           if (matrix[row][col] < 0) {
             rowBuild.append("  ");
           } else {
+            //convert the integers to hex and add value to line
            rowBuild.append(Integer.toHexString(matrix[row][col]) + " "); 
           }
         }
+       //add each row as separate line
         matrixBuild.append("\n" + rowBuild);
       }
       
