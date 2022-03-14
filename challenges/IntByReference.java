@@ -1,5 +1,3 @@
-package challenges;
-
 public class IntByReference {
   private int value;
   private static IntByReference a;

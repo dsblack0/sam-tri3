@@ -1,14 +1,12 @@
-package challenges;
-
 import java.util.*;
 
 class Menu {
   String title;
   Runnable action;
 
-  public Menu(String t, Runnable act) {
-    this.title = t;
-    this.action = act;
+  public Menu(String title, Runnable action) {
+    this.title = title;
+    this.action = action;
   }
 
   public String getTitle() {
@@ -21,8 +19,8 @@ class Menu {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     Map<Integer, Menu> menu = new HashMap<>();
-    menu.put(1, new Menu("IntByReference", () -> IntByReference.main(null)));
-    menu.put(2, new Menu("Matrix", () -> IntByReference.main(null)));
+    menu.put(1, new Menu("IntByReference", () -> IntByReference.main(null) ) );
+    menu.put(2, new Menu("Matrix", () -> Matrix.main(null) ) );
 
   
   System.out.println("Choose from menu:");
