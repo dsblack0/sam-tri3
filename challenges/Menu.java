@@ -31,8 +31,13 @@ class Menu {
     }
 
     //run menu item when user inputs an integer
-    int input = sc.nextInt();
-    Menu selection = menu.get(input);
-    selection.getAction().run();
+      int input = sc.nextInt();
+      try {
+        Menu selection = menu.get(input);
+        selection.getAction().run();
+      } catch (Exception e) {
+                    System.out.println("Error with input of: " + input);
+        }
+    main(null);
   }
 }
