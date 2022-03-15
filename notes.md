@@ -20,7 +20,7 @@
      - enhanced `for` loop
 - Generic T
      - so that you can reuse your one stack or queue for different data types
-     - used because you don't need to know the exact type when pushing in the data
+     - used because you don't need to know the exact type when pushing in the data -> don't have to uncast/cast Object afterwards
      - enables application to any types of objects
 
 ## Week 0
