@@ -23,11 +23,17 @@
      - used because you don't need to know the exact type when pushing in the data -> don't have to uncast/cast Object afterwards
      - enables application to any types of objects
 
+### Tech Talk Questions/Plans
+- How does Generic T work and how is using it helpful?
+     - so that you can reuse your one stack or queue for different data types
+     - used because you don't need to know the exact type when pushing in the data -> don't have to uncast/cast Object afterwards
+     - enables application to any types of objects
+- Challenge 1:
+
 ## Week 0
 ### Tech Talk 0: Data Structures
 - **Data structures** are methods of organizing data
      - variables, arrays, hashmaps,  tables, databases
-
 #### Programming Paradigms
 - an approach to be folowed for writing software applications
 - **Imperative Paradigm** = programming paradigm that uses statements that change program state
@@ -35,6 +41,13 @@
      - Procedural Programming = when program is built form one or more procedures
 - **Object Oriented Paradigm** = relies on concept of classes and objects
      - to structure program into simple & reusable code pieces
+
+### Tech Talk Plans
+- Challenge 1:
+     - Use HashMap to create the Menu
+- Challengee 3:
+     - Use StringBuilder and "\n" to format the matrices with each row as a separate line
+     - Convert the integers to hex values to ouput letters a-f instead of integers 10-15
 
 ### Notes on linking Replit and Github Repo
 hacks.sh file
