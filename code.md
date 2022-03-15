@@ -83,5 +83,3 @@
       return matrixBuild.toString();
     }
     ```
-
-## Week 1
