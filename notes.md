@@ -2,7 +2,7 @@
 
 # Notes
 
-## Week 0
+## Week 1
 ### Tech talk 1: Linked Lists
 - **Linked Lists** are ways of keeping and managing a list of Objects
 ![image](https://user-images.githubusercontent.com/70492417/158393952-bafa9d52-733d-4cbc-abb8-62c9947483c3.png)
