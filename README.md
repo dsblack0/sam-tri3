@@ -1,6 +1,6 @@
 # Sam Duggirala Tri 3
 
-## [Replit](https://replit.com/@SamhithaDuggira/sam-tri3)
+## [Replit](https://replit.com/@dsblack0/sam-tri3-2)
 - Individual code for challenges running
 
 ## Class Notes
