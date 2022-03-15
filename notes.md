@@ -10,10 +10,18 @@
      - E -> shows inserting a new Object
      - tmp -> shows accessing Data from D Object
 - foundation for Stacks & Queues
-     - **Queues** = first in, first out
+     - **Queues** = first in, first out (fifo)
           - keep track of First In (dequeue extraction), Back (enqueue entry), Current node (iteration)
-     - **Stacks** = last in, first out
+          - "Head" is the first, "Tail" is the last
+     - **Stacks** = last in, first out (lifo)
           - keep track of Last Item inserted (Push entry + Pop extraction) 
+     - A queue has a linked list
+- Iterable interface
+     - enhanced `for` loop
+- Generic T
+     - so that you can reuse your one stack or queue for different data types
+     - used because you don't need to know the exact type when pushing in the data
+     - enables application to any types of objects
 
 ## Week 0
 ### Tech Talk 0: Data Structures
