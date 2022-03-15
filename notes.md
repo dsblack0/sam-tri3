@@ -42,13 +42,6 @@
 - **Object Oriented Paradigm** = relies on concept of classes and objects
      - to structure program into simple & reusable code pieces
 
-### Tech Talk Plans
-- Challenge 1:
-     - Use HashMap to create the Menu
-- Challengee 3:
-     - Use StringBuilder and "\n" to format the matrices with each row as a separate line
-     - Convert the integers to hex values to ouput letters a-f instead of integers 10-15
-
 ### Notes on linking Replit and Github Repo
 hacks.sh file
 - javac *.java
@@ -57,3 +50,10 @@ hacks.sh file
 
 .replit file
 - run = "bash hacks.sh"
+
+### Tech Talk Plans
+- Challenge 1:
+     - Use HashMap to create the Menu
+- Challenge 3:
+     - Use StringBuilder and "\n" to format the matrices with each row as a separate line
+     - Convert the integers to hex values to ouput letters a-f instead of integers 10-15
