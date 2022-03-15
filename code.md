@@ -1,3 +1,5 @@
+{% include navigation.html %}
+
 # Code
 
 ## Week 0
