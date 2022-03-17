@@ -1,2 +1,5 @@
+kramdown:
+  input: GFM
+  
 theme: jekyll-theme-architect
 markdown: kramdown
