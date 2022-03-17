@@ -2,6 +2,10 @@
 
 # Code Review
 
+## Table of Contents
+* TOC
+{:toc}
+
 ## Week 0
 ### Challenge 1
 - used HashMap to add each element to the menu
