@@ -23,6 +23,7 @@ class Menu {
     //add each Menu item with title and Runnable
     menu.put(1, new Menu("IntByReference", () -> IntByReference.main(null) ) );
     menu.put(2, new Menu("Matrix", () -> Matrix.main(null) ) );
+    menu.put(3, new Menu("Queue", () -> QueueTester.main(null)));
 
   //text formatting of menu
   System.out.println("Choose from menu:");
@@ -36,7 +37,7 @@ class Menu {
         Menu selection = menu.get(input);
         selection.getAction().run();
       } catch (Exception e) {
-                    System.out.println("Error with input of: " + input);
+                    System.out.println("That is not a valid option.");
         }
     main(null);
   }
