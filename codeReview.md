@@ -106,6 +106,33 @@ public void delete() {
 ```
 
 ### Challenge 2
+- used while loop to add data from the fist and second queues into the third merged queue
+```
+public Queue<T> merged() {
+    QueueIterator<T> queueFir = new QueueIterator<T>(queue1);
+    QueueIterator<T> queueSec = new QueueIterator<T>(queue2);
+    Queue<T> queueMer = new Queue<T>();
+    while (queueFir.hasNext() && queueSec.hasNext()) {
+      T fir = queueFir.next();
+      T sec = queueSec.next();
+
+      if ((int)fir <= (int)sec) {
+        queueMer.add(fir);
+        queueMer.add(sec);
+      } else {
+        queueMer.add(sec);
+        queueMer.add(fir);
+      }
+    }
+    return queueMer;
+  }
+```
+#### Errors/Issues
+- Although the merged queue is outputted correctly for this scenario, it will only function properly if the two initially seperate queues are formatted with this or a similar alternating pattern. I still need to work on finding a solution where the merged queue will have a correct numerically ascending order regardless of how the two intial queues are formatted
+
+![image](https://user-images.githubusercontent.com/70492417/159313743-e1f3503f-1bad-4d4e-830c-5e68f1da30a0.png)
+
+### Challenge 3
 - first, created the queue from an array of objects
 - used `push()` to input the data from the queue/array into the stack
 - used `pop()` to extract the data from the stack and print the full stack
@@ -130,27 +157,3 @@ class StackTester {
   }
 }
 ```
-
-### Challenge 3
-- used while loop to add data from the fist and second queues into the third merged queue
-```
-public Queue<T> merged() {
-    QueueIterator<T> queueFir = new QueueIterator<T>(queue1);
-    QueueIterator<T> queueSec = new QueueIterator<T>(queue2);
-    Queue<T> queueMer = new Queue<T>();
-    while (queueFir.hasNext() && queueSec.hasNext()) {
-      T fir = queueFir.next();
-      T sec = queueSec.next();
-
-      if ((int)fir <= (int)sec) {
-        queueMer.add(fir);
-      } else {
-        queueMer.add(sec);
-      }
-    }
-    return queueMer;
-  }
-```
-#### Errors
-- had errors in the above code section because when the while loop compares `fir` and `sec`, it adds the smaller one to `queueMer` but the larger one is never added to `queueMer`
-![image](https://user-images.githubusercontent.com/70492417/159307290-6f32aefb-0348-4059-9b4c-40d6ad2527a2.png)
