@@ -24,6 +24,8 @@ class Menu {
     menu.put(1, new Menu("IntByReference", () -> IntByReference.main(null) ) );
     menu.put(2, new Menu("Matrix", () -> Matrix.main(null) ) );
     menu.put(3, new Menu("Queue", () -> QueueTester.main(null)));
+    menu.put(4, new Menu("Queue to Stack", () -> StackTester.main(null)));
+    menu.put(5, new Menu("Merge Queues", () -> QueueMergeTester.main(null)));
 
   //text formatting of menu
   System.out.println("Choose from menu:");
