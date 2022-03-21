@@ -29,10 +29,13 @@ public class Queue<T> implements Iterable<T> {
     }
 
   public void delete() {
+    // check if head is empty and there is no data to remove
     if (head == null) {
       System.out.println("The queue is empty. Add some data first");
     } else {
+      // set new head to second object
       this.head = head.getNext();
+      // set previoud node as tail
       this.head.setPrevNode(tail);
     }
   }
@@ -135,9 +138,11 @@ class QueueManager<T> {
     public void deleteList(T[]... seriesOfObjects) {
         for (T[] objects: seriesOfObjects)
             for (T data : objects) {
+              // delte object
               this.queue.delete();
+              // decrease count
               this.count--;
-             // System.out.println("Dequeued Data: " + this.queue.getHead().getData());
+              // print queue information
               printQueue(); 
             }
     }
@@ -161,12 +166,13 @@ class QueueManager<T> {
 class QueueTester {
     public static void main(String[] args)
     {
-        // Create iterable Queue of Words
+        // Create array of words
         Object[] words = new String[] { "seven", "slimy", "snakes", "sallying", "slowly", "slithered", "southward"};
 
-        // Create iterable Queue of Mixed types of data with each object added individually
+        // Create queue from array of words with each object added individually
         QueueManager qWords = new QueueManager("Words", words);
         qWords.printQueue();
+        // Individually dequeue each word from queue
         qWords.deleteList(words);
 
     }

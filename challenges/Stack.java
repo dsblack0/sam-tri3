@@ -88,17 +88,22 @@ public class Stack
 
 class StackTester {
   public static void main(String[] args) {
+    // create array of objects to be enqueued
     Object[] queue = new Integer[] {1, 2, 3};
     Object[] stack = new Integer[] {};
 
     System.out.println("Build Initial Queue:");
+    // create queue from array with each object added individually
     QueueManager q = new QueueManager("Integers", queue);
 
+    // initialize a stack
     Stack s = new Stack();
+    // push objects that are in queue into the stack
     for (int i = 0; i < queue.length; i++) {
       s.push(queue[i]);
     }
     System.out.println("Build Stack from Queue:");
+    // pop objects our from stack to be printed
     for (int i = 0; i < queue.length; i++) {
       System.out.print(s.pop() + " ");
     }
