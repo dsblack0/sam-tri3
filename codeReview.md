@@ -89,10 +89,9 @@ Code running on [Replit tab](https://dsblack0.github.io/sam-tri3/code)
       return matrixBuild.toString();
     }
     ```
-    
- ## Week 1
- 
- ### Challenge 1
+
+## Week 1
+### Challenge 1
 - used `getNext()` and `setPrevNode()` to set the head of the queue to the next node and move the tail node up
 - used if statement to check if the head is already empty to avoid errors
 ```
