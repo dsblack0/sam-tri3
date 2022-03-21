@@ -2,6 +2,8 @@
 
 # Code Review
 
+Code running on [Replit tab](https://dsblack0.github.io/sam-tri3/code)
+
 ## Table of Contents
 * TOC
 {:toc}
@@ -87,3 +89,68 @@
       return matrixBuild.toString();
     }
     ```
+    
+ ## Week 1
+ ### Challenge 1
+- used `getNext()` and `setPrevNode()` to set the head of the queue to the next node and move the tail node up
+- used if statement to check if the head is already empty to avoid errors
+```
+public void delete() {
+    if (head == null) {
+      System.out.println("The queue is empty. Add some data first");
+    } else {
+      this.head = head.getNext();
+      this.head.setPrevNode(tail);
+    }
+  }
+```
+
+### Challenge 2
+- first, created the queue from an array of objects
+- used `push()` to input the data from the queue/array into the stack
+- used `pop()` to extract the data from the stack and print the full stack
+```
+class StackTester {
+  public static void main(String[] args) {
+    Object[] queue = new Integer[] {1, 2, 3};
+    Object[] stack = new Integer[] {};
+
+    System.out.println("Build Initial Queue:");
+    QueueManager q = new QueueManager("Integers", queue);
+
+    Stack s = new Stack();
+    for (int i = 0; i < queue.length; i++) {
+      s.push(queue[i]);
+    }
+    System.out.println("Build Stack from Queue:");
+    for (int i = 0; i < queue.length; i++) {
+      System.out.print(s.pop() + " ");
+    }
+    System.out.println();
+  }
+}
+```
+
+### Challenge 3
+- used while loop to add data from the fist and second queues into the third merged queue
+```
+public Queue<T> merged() {
+    QueueIterator<T> queueFir = new QueueIterator<T>(queue1);
+    QueueIterator<T> queueSec = new QueueIterator<T>(queue2);
+    Queue<T> queueMer = new Queue<T>();
+    while (queueFir.hasNext() && queueSec.hasNext()) {
+      T fir = queueFir.next();
+      T sec = queueSec.next();
+
+      if ((int)fir <= (int)sec) {
+        queueMer.add(fir);
+      } else {
+        queueMer.add(sec);
+      }
+    }
+    return queueMer;
+  }
+```
+#### Errors
+- had errors in the above code section because when the while loop compares `fir` and `sec`, it adds the smaller one to `queueMer` but the larger one is never added to `queueMer`
+![image](https://user-images.githubusercontent.com/70492417/159307290-6f32aefb-0348-4059-9b4c-40d6ad2527a2.png)
