@@ -2,8 +2,27 @@
 
 # Notes
 
+## Week 2
+### Tech Talk 2: Calculator using Stacks, ArrayLists
+- convert strings into Reverse Polish Notation with Shunting-yard algorithm
+     - 3 + 4 becomes 3 4 +
+- Key Calculator Parts
+     - driver for testing with multiple conditions
+     - define Data Structures to define operators
+     - define symbols that split terms to support tokens
+     - test functions for these operators and separators
+     - class to manage calculator object
+          - constructor can recieve expression and establish sequence for result
+     - **Term tokenizer** > changes String expression into series of tokens with distinct elements of expression
+     - methods to support calculation, capture attributes, and establish `toString`
+
+### Tech Talk Plan
+- Challenge
+     - must be able to support decimals as well
+     - must build in "power of" (^) operator
+
 ## Week 1
-### Tech talk 1: Linked Lists
+### Tech Talk 1: Linked Lists
 - **Linked Lists** are ways of keeping and managing a list of Objects
 ![image](https://user-images.githubusercontent.com/70492417/158393952-bafa9d52-733d-4cbc-abb8-62c9947483c3.png)
      - ABCD -> have Data + Next pointer
