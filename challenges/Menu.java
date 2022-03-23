@@ -26,6 +26,7 @@ class Menu {
     menu.put(3, new Menu("Queue", () -> QueueTester.main(null)));
     menu.put(4, new Menu("Queue to Stack", () -> StackTester.main(null)));
     menu.put(5, new Menu("Merge Queues", () -> QueueMergeTester.main(null)));
+    menu.put(6, new Menu("Calculator", () -> Calculator.main(null)));
 
   //text formatting of menu
   System.out.println("Choose from menu:");
