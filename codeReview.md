@@ -157,3 +157,55 @@ class StackTester {
   }
 }
 ```
+
+## Week 2
+### Calculator Challenge
+- for loop to iterate through each token in the reserve polished notation
+```
+// for loop to process RPN
+for (String token: reverse_polish) {
+```
+- if statement to check if the token is a number or an operator
+     - if a number: pushed into numbers stack
+     - if an operator: first two numbers from the stack of numbers are poped for the calculation to be performed
+```
+if (!isOperator(token)){
+        // Push number to stack
+        Double number = Double.parseDouble(token);
+        calculation.push(number);
+      } else {
+        // Pop the two top entries
+        Double num1 = (Double)calculation.pop();
+        Double num2 = (Double)calculation.pop();
+        Double res = 0.0;
+```
+- calculation is perfomed based on the operator
+```
+if (token.equals("*")) {
+  res = num2 * num1;
+}
+if (token.equals("/")) {
+  res = num2 / num1;
+}
+if (token.equals("%")) {
+  res = num2 % num1;
+}
+if (token.equals("+")) {
+  res = num2 + num1;
+}
+if (token.equals("-")) {
+  res = num2 - num1;
+}
+if (token.equals("^")) {
+  res = Math.pow(num2, num1);
+}
+```
+- resulting number from calculation is pushed to the stack of numbers
+```
+calculation.push(res);
+```
+- final result is popped from the stack when all of the tokens from the reverse polish notation have been iterated through
+```
+result = (Double)calculation.pop();
+```
+- `toString()` method prints all of the notations and the final result as strings
