@@ -159,7 +159,7 @@ class StackTester {
 ```
 
 ## Week 2
-### Calculator Challenge
+### Challenge 1 - Calculator
 - for loop to iterate through each token in the reserve polished notation
 ```
 // for loop to process RPN
@@ -209,3 +209,33 @@ calculation.push(res);
 result = (Double)calculation.pop();
 ```
 - `toString()` method prints all of the notations and the final result as strings
+
+### Challenge 2 - Power Calculator
+- power (^) set to have highest precedence out of all the operators
+```
+private final Map<String, Integer> OPERATORS = new HashMap<>();
+  {
+    // Map<"token", precedence>
+    OPERATORS.put("^", 2);
+    OPERATORS.put("*", 3);
+    OPERATORS.put("/", 3);
+    OPERATORS.put("%", 3);
+    OPERATORS.put("+", 4);
+    OPERATORS.put("-", 4);
+  }
+```
+- add ^ to the tokens for reverse polish notation
+```
+case "+":
+case "-":
+case "*":
+case "/":
+case "%":
+case "^":
+```
+- add if statement with calculation for ^ operator in `rpnToResult()` method
+```
+if (token.equals("^")) {
+  res = Math.pow(num2, num1);
+}
+```
