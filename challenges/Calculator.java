@@ -229,5 +229,11 @@ public class Calculator {
     
     Calculator allMath3 = new Calculator("200%(300+5+300)/200+1*100");
     System.out.println("Simple Math 3\n" + allMath3);
+
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Input an expression to get calculated result.");
+    String expression = sc.nextLine();
+    Calculator inputMath = new Calculator(expression);
+    System.out.println(inputMath);
   }
 }
