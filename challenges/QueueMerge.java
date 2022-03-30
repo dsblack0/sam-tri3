@@ -19,6 +19,7 @@ public class QueueMerge<T> {
     QueueIterator<T> queueSec = new QueueIterator<T>(queue2);
     Queue<T> queueX = new Queue<T>();
     Queue<T> queueMer = new Queue<T>();
+    int value = 0;
 
     T fir = queueFir.next();
     T sec = queueSec.next();
@@ -56,6 +57,14 @@ public class QueueMerge<T> {
         sec = queueSec.next();
       }
     }
+
+      if ((int)fir <= (int)sec) {
+        queueMer.add(fir);
+        queueMer.add(sec);
+      } else {
+        queueMer.add(sec);
+        queueMer.add(fir);
+      }
     return queueMer;
   }
 
