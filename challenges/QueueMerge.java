@@ -17,24 +17,48 @@ public class QueueMerge<T> {
   public Queue<T> merged() {
     QueueIterator<T> queueFir = new QueueIterator<T>(queue1);
     QueueIterator<T> queueSec = new QueueIterator<T>(queue2);
+    Queue<T> queueX = new Queue<T>();
     Queue<T> queueMer = new Queue<T>();
-    // condition so that loop runs until the inital queues are empty
-    while (queueFir.hasNext() && queueSec.hasNext()) {
-      T fir = queueFir.next();
-      T sec = queueSec.next();
 
+    T fir = queueFir.next();
+    T sec = queueSec.next();
+
+    // condition so that loop runs until the inital queues are empty
+    if ((int)fir <= (int)sec) {
+      queueMer.add(fir);
+      queueX.add(sec);
+      QueueIterator<T> queueEx = new QueueIterator<T>(queueX);
+      fir = queueFir.next();
+      sec = queueEx.next();
+    } else {
+      queueMer.add(sec);
+      queueX.add(fir);
+      QueueIterator<T> queueEx = new QueueIterator<T>(queueX);
+      fir = queueSec.next();
+      sec = queueEx.next();
+    }
+
+    while (queueFir.hasNext() || queueSec.hasNext()) {
       // objects from each individual queue are added to the merged queue from least to greatest
       if ((int)fir <= (int)sec) {
         queueMer.add(fir);
-        queueMer.add(sec);
+        queueX.add(sec);
+        queueX.delete();
+        QueueIterator<T> queueEx = new QueueIterator<T>(queueX);
+        fir = queueFir.next();
+        sec = queueEx.next();
       } else {
         queueMer.add(sec);
-        queueMer.add(fir);
+        queueX.add(fir);
+        queueX.delete();
+        QueueIterator<T> queueEx = new QueueIterator<T>(queueX);
+        fir = queueEx.next();
+        sec = queueSec.next();
       }
     }
     return queueMer;
   }
-  
+
 }
 
 class QueueMergeTester {
@@ -57,11 +81,11 @@ class QueueMergeTester {
     QueueIterator queueFinal = new QueueIterator(queueM.merged());
     System.out.println();
     System.out.println("Merged Queue: ");
-   
+
     // print merged queue
     while (queueFinal.hasNext()) {
       System.out.print(queueFinal.next() + " ");
     }
     System.out.println();
-  }   
+  }
 }
