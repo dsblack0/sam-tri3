@@ -24,7 +24,9 @@ public class QueueMerge<T> {
     T fir = queueFir.next();
     T sec = queueSec.next();
 
-    // condition so that loop runs until the inital queues are empty
+    //initial iteration of loop without emptying queueX
+
+    //adds smaller value to final merged queue and add larger value to a third queue
     if ((int)fir <= (int)sec) {
       queueMer.add(fir);
       queueX.add(sec);
@@ -38,12 +40,13 @@ public class QueueMerge<T> {
       fir = queueSec.next();
       sec = queueEx.next();
     }
-
+    //continue to run loop as long as there is another element in the queue
     while (queueFir.hasNext() || queueSec.hasNext()) {
-      // objects from each individual queue are added to the merged queue from least to greatest
+      //adds smaller value to final merged queue and add larger value to a third queue
       if ((int)fir <= (int)sec) {
         queueMer.add(fir);
         queueX.add(sec);
+        //remove first element from queueX so that added one is first in the iteration
         queueX.delete();
         QueueIterator<T> queueEx = new QueueIterator<T>(queueX);
         fir = queueFir.next();
@@ -57,7 +60,7 @@ public class QueueMerge<T> {
         sec = queueSec.next();
       }
     }
-
+      //compare last two values left in the three queues and add in order from least to greatest
       if ((int)fir <= (int)sec) {
         queueMer.add(fir);
         queueMer.add(sec);
