@@ -3,14 +3,14 @@ import java.time.Instant;
 import java.util.Scanner;
 
 public class SortData {
-    private int[] unsorted;
-    private int comparisons;
-    private int swaps;
-    private int time;
+    int[] sortList;
+    int comparisons;
+    int swaps;
+    int time;
 
 
     public SortData() {
-        this.unsorted = getUnsorted();
+        this.sortList = getUnsorted();
         Instant start = Instant.now();
         sort();
         Instant end = Instant.now();
@@ -51,9 +51,9 @@ public class SortData {
     }
 
     public String toString() {
-        String output = "Comparisons: " + comparisons + "\nSwaps: " + swaps + "\nTime Elapsed: " + time + "\n Sorted Data: ";
-        for (int i=0; i < unsorted.length; i++) {
-            output += unsorted[i] + ", ";
+        String output = "Comparisons: " + comparisons + "\nSwaps: " + swaps + "\nTime Elapsed: " + time + "\nSorted Data: ";
+        for (int i=0; i < sortList.length; i++) {
+            output += sortList[i] + ", ";
         }
         return output;
     }
