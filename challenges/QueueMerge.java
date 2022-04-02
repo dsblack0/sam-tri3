@@ -60,6 +60,7 @@ public class QueueMerge<T> {
         sec = queueSec.next();
       }
     }
+
       //compare last two values left in the three queues and add in order from least to greatest
       if ((int)fir <= (int)sec) {
         queueMer.add(fir);
@@ -68,8 +69,9 @@ public class QueueMerge<T> {
         queueMer.add(sec);
         queueMer.add(fir);
       }
-    return queueMer;
-  }
+      // return final, merged queue
+      return queueMer;
+    }
 
 }
 
