@@ -35,7 +35,7 @@ public class Queue<T> implements Iterable<T> {
     } else {
       // set new head to second object
       this.head = head.getNext();
-      // set previoud node as tail
+      // set previous node as tail
       this.head.setPrevNode(null);
     }
   }
