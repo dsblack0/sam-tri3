@@ -241,9 +241,10 @@ if (token.equals("^")) {
 ```
 
 ## Week 3
-### Challenge - Sorts
-- [Sorts Implementation]()
+### Sorts Implementation + Results
+- [Implementation](https://dsblack0.github.io/sam-tri3/sortsImplementation)
 
+### Deriving Sorts' Analytics
 - used for loop to run the sort 12 times and collect analytics of time, # of comparisons, and # swaps
      - found the `Duration` between the start and end of the sort and converted it to nano seconds
      - created array lists with all 12 of the times, all 12 # of comparisons, and all 12 # of swaps
@@ -265,17 +266,3 @@ if (token.equals("^")) {
      times.remove(Collections.min(times));
      ```
      - found the average of all the values within the array list to get final analytics
-
-- Bubble Sort:
-
-![image](https://user-images.githubusercontent.com/70492417/161482799-ada352c4-d7db-4261-ad37-7c67d201c243.png)
-- Selection Sort: 
-
-![image](https://user-images.githubusercontent.com/70492417/161482740-ac5ca3c6-b773-47cb-ae18-eebcfa30ad88.png)
-- Insertion Sort:
-
-![image](https://user-images.githubusercontent.com/70492417/161482846-4ecb6241-8de5-4a0d-8a7f-68c20a0da53f.png)
-- Merge Sort: 
-
-![image](https://user-images.githubusercontent.com/70492417/161482897-b6c9e36a-2c51-4279-a314-1d2a1bef08b7.png)   
-     
