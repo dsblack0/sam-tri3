@@ -27,6 +27,10 @@ class Menu {
     menu.put(4, new Menu("Queue to Stack", () -> StackTester.main(null)));
     menu.put(5, new Menu("Merge Queues", () -> QueueMergeTester.main(null)));
     menu.put(6, new Menu("Calculator", () -> Calculator.main(null)));
+    menu.put(7, new Menu("Bubble Sort", () -> BubbleSort.main(null)));
+    menu.put(8, new Menu("Selection Sort", () -> SelectionSort.main(null)));
+    menu.put(9, new Menu("Insertion Sort", () -> InsertionSort.main(null)));
+    menu.put(10, new Menu("Merge Sort", () -> MergeSort.main(null)));
 
   //text formatting of menu
   System.out.println("Choose from menu:");

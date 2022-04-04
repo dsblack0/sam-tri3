@@ -85,6 +85,7 @@ public class SortData {
         for (int i=0; i < sortList.length; i++) {
             output += sortList[i] + ", ";
         }
+        output += "\n";
         return output;
     }
 }
