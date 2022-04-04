@@ -140,3 +140,4 @@ public void mergeSort(int[] list, int[] one, int[] two, int o, int t) {
      - it requires the least amount of time to run
      - it conducts the least amount of comparisons as it is always one less than the number of elements in the list
      - although the selection sort required less swaps, the insertion sort still doesn't require much more swaps to sort the list
+- when there is a much large set of integers, though, the **merge sort** is the best algorithm because the insertion will require a much larger amount of comparisons and swaps while the merge sort doesn't require any swaps
