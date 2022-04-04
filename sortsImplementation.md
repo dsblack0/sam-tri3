@@ -103,11 +103,9 @@ public void mergeSort(int[] list, int[] one, int[] two, int o, int t) {
         if (one[i] <= two[j]) {
             list[k] = one[i];
             i++;
-            swaps++;
         } else {
             list[k] = two[j];
             j++;
-            swaps++;
         }
         k++;
     }
@@ -134,7 +132,7 @@ public void mergeSort(int[] list, int[] one, int[] two, int o, int t) {
 | Bubble | O(n^2) | 52735490 | 24985002 | 6159635 |
 | Selection | O(n^2) | 29347270 | 12497500 | 4993 |
 | Insertion | O(n^2) | 57870 | 4999 | 4995 |
-| Merge | O(nlog(n)) | 194455 | 16392 | 125260 |
+| Merge | O(nlog(n)) | 194455 | 16392 | 0 |
 
 **the same exact set of 5000 integers was used to get the analytics for all 4 sorts
 
