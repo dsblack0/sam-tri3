@@ -48,8 +48,84 @@ public void sort() {
      - this repeats until the list is fully sorted
 
 ## Insertion Sort
+```
+public void sort() {
+    for (int i=1; i<sortList.length; ++i) {
+        int x = sortList[i];
+        int j = i-1;
+        comparisons++;
+        while (j >=0 && sortList[j] > x) {
+            sortList[j+1] = sortList[j];
+            j--;
+        }
+        if (sortList[j+1] != x) {
+            swaps++;
+        }
+        sortList[j+1] = x;
+    }
+}
+```
+- the second integer in the list is set as the "key" and compared to the previous integer
+     - through the while loop, as long as the integer is smaller than the previous one, it is continued to be moved one position up and compared to the previous integers before it
+     - the next integer is then set as the new "key"
+- this same process is repeated in the for loop for each of the integers in the list, when the list is fully sorted
 
 ## Merge Sort
+```
+public void sort(int[] list, int e) {
+    if (e < 2) {
+        return;
+    }
+    int m = e/2;
+    int[] one = new int[m];
+    int[] two = new int[e-m];
+    for (int i=0; i < one.length; i++) {
+        one[i] = list[i];
+    }
+    for (int i=0; i < two.length; i++) {
+        two[i] = list[i+m];
+    }
+    sort(one, m);
+    sort(two, e-m);
+    mergeSort(list, one, two, m, e-m);
+}
+```
+- if the array is only consists of one integer, it is returned as the final array
+- otherwise, the midpoint of the array is found and the array is split into two close to equal portions
+     - recursion is used to repeat this process until the initial list is continuously split in 2 to reach arrays of 1 integer each
+     - the `mergeSort()` method is called to sort each of the split array and then combine them into the final list
+
+```
+public void mergeSort(int[] list, int[] one, int[] two, int o, int t) {
+    int i=0, j=0, k=0;
+    while (i < o && j < t) {
+        comparisons++;
+        if (one[i] <= two[j]) {
+            list[k] = one[i];
+            i++;
+            swaps++;
+        } else {
+            list[k] = two[j];
+            j++;
+            swaps++;
+        }
+        k++;
+    }
+    while (i < o) {
+        list[k] = one[i];
+        i++;
+        k++;
+    }
+    while (j < t) {
+        list[k] = two[j];
+        j++;
+        k++;
+    }
+}
+```
+- with the first while loop going through pairs of the split arrays, the elements of the arrays are compared and the smaller integer out of each is added to the combined array
+     - the second and third while loops go through the two split arrays individually and add any of the remaining elements left after they have been compared against each other
+- this is repeated through all of the split arrays until they are combined into one final array that is returned at the end of the sort
 
 ## Analytics
 
