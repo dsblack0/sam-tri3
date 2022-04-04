@@ -1,20 +1,46 @@
 import java.time.Duration;
 import java.time.Instant;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class SortData {
     int[] sortList;
     int comparisons;
+    ArrayList<Integer> compare = new ArrayList<>();
     int swaps;
+    ArrayList<Integer> swap = new ArrayList<>();
     int time;
+    ArrayList<Integer> times = new ArrayList<>();
 
 
     public SortData() {
         this.sortList = getUnsorted();
-        Instant start = Instant.now();
-        sort();
-        Instant end = Instant.now();
-        this.time = Duration.between(start, end).getNano();
+        for (int i=0; i<12; i++) {
+            Instant start = Instant.now();
+            sort();
+            Instant end = Instant.now();
+            this.time = Duration.between(start, end).getNano();
+            times.add(this.time);
+            compare.add(this.comparisons);
+            swap.add(this.swaps);
+            comparisons = 0;
+        }
+        times.remove(Collections.max(times));
+        times.remove(Collections.min(times));
+        compare.remove(Collections.max(compare));
+        compare.remove(Collections.min(compare));
+        swap.remove(Collections.max(swap));
+        swap.remove(Collections.min(swap));
+
+        for (int i=0; i<times.size(); i++) {
+            time += times.get(i);
+            comparisons += compare.get(i);
+            swaps += swap.get(i);
+        }
+        time = time/times.size();
+        comparisons = comparisons/times.size();
+        swaps = swaps/(times.size()+1);
     }
 
     public int getComparisons() {
@@ -23,6 +49,10 @@ public class SortData {
 
     public int getSwaps() {
         return swaps;
+    }
+
+    public int getTime() {
+        return time;
     }
 
     public void sort() {
