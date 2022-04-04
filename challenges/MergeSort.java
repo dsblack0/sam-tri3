@@ -65,11 +65,9 @@ public class MergeSort extends SortData {
             if (one[i] <= two[j]) {
                 list[k] = one[i];
                 i++;
-                swaps++;
             } else {
                 list[k] = two[j];
                 j++;
-                swaps++;
             }
             k++;
         }
