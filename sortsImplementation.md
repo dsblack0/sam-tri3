@@ -129,15 +129,16 @@ public void mergeSort(int[] list, int[] one, int[] two, int o, int t) {
 
 | **Sort Type** | **Big O Complexity** | **Time** | **# Comparisons** | **# Swaps** |
 | ---       | ---              | ---  | ---           | ---     |
-| Bubble | O(n^2) | 52735490 | 24985002 | 6159635 |
-| Selection | O(n^2) | 29347270 | 12497500 | 4993 |
-| Insertion | O(n^2) | 57870 | 4999 | 4995 |
-| Merge | O(nlog(n)) | 194455 | 16392 | 0 |
+| Bubble | O(n^2)<br>due to nested for loop | 52735490 | 24985002 | 6159635 |
+| Selection | O(n^2)<br>due to nested for loop | 29347270 | 12497500 | 4993 |
+| Insertion | O(n^2)<br>due to iteration through outside for loop and inside while loop | 57870 | 4999 | 4995 |
+| Merge | O(nlog(n))<br>due to the array being split in 2 and number of splits simply being dependent on the number of integers in list | 194455 | 16392 | 0 |
 
 **the same exact set of 5000 integers was used to get the analytics for all 4 sorts
 
 - for a set of about 5000 integers, the **insertion sort** is the best sorting algorithm
      - it requires the least amount of time to run
      - it conducts the least amount of comparisons as it is always one less than the number of elements in the list
-     - although the selection sort required less swaps, the insertion sort still doesn't require much more swaps to sort the list
-- when there is a much large set of integers, though, the **merge sort** is the best algorithm because the insertion will require a much larger amount of comparisons and swaps while the merge sort doesn't require any swaps
+     - Although the merge and selection sort required less swaps, the insertion sort still doesn't require much more swaps than selection sort and it doesn't require recursion like the merge sort. The insertion sort skips already sorted values, making it more efficient for smaller data sets.
+- when there is a much large set of integers, though, the **merge sort** is the best algorithm as O(nlog(n)) is a more simple algorithm than O(n^2)
+     - the data does not be iterated through twice as the array is continuously split in 2
