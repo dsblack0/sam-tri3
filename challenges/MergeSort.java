@@ -14,6 +14,7 @@ public class MergeSort extends SortData {
             times.add(this.time);
             compare.add(this.comparisons);
             swap.add(this.swaps);
+            swaps = 0;
             comparisons = 0;
         }
         times.remove(Collections.max(times));
