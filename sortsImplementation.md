@@ -12,7 +12,7 @@
 ## Analytics
 
 | Sort Type | Big O Complexity | Time | # Comparisons | # Swaps |
-| ---       | ---              | ---  | ---           | ---     |
+| --- | --- | --- | --- | --- |
 | Bubble | O(n^2) | 52735490 | 24985002 | 6159635 |
 | Selection | O(n^2) | 29347270 | 12497500 | 4993 |
 | Insertion | O(n^2) | 57870 | 4999 | 4995 |
