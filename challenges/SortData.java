@@ -61,7 +61,7 @@ public class SortData {
 
     public int[] getUnsorted() {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Input a size of the amount of data you want (an integer) or a set of data you want to sort (a list of integers separated just by commas)");
+        System.out.println("Input a size of the amount of data you want (an integer) to generate a random list OR a set of data you want to sort (a list of integers separated by commas)");
         String input = sc.nextLine();
         if (input.contains(",")) {
             String[] strList = input.split(",");
