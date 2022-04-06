@@ -91,7 +91,7 @@ Code running on [Replit tab](https://dsblack0.github.io/sam-tri3/code)
     ```
 
 ## Week 1
-### Challenge 1
+### Challenge 1 - Dequeue
 - used `getNext()` and `setPrevNode()` to set the head of the queue to the next node and move the tail node up
 - used if statement to check if the head is already empty to avoid errors
 ```
@@ -105,7 +105,7 @@ public void delete() {
   }
 ```
 
-### Challenge 2
+### Challenge 2 - Merge Queues
 - used while loop to add data from the fist and second queues into the third merged queue
 ```
 public Queue<T> merged() {
@@ -128,11 +128,21 @@ public Queue<T> merged() {
   }
 ```
 #### Errors/Issues
+**Initial Issue**
 - Although the merged queue is outputted correctly for this scenario, it will only function properly if the two initially seperate queues are formatted with this or a similar alternating pattern. I still need to work on finding a solution where the merged queue will have a correct numerically ascending order regardless of how the two intial queues are formatted
 
 ![image](https://user-images.githubusercontent.com/70492417/159313743-e1f3503f-1bad-4d4e-830c-5e68f1da30a0.png)
 
-### Challenge 3
+**Issue Update 1**
+- I was able to go back and fix this issue by creating a third queue where the compared elements are passed into during the merge process, in order to ensure that all of the integers in the queue are compared to each other as they are sorted into the merged queue
+     - this allowed for the two initial queues to be merged correctly even when the starting order was slightly different from the current testing data
+
+
+**Issue Update 2**
+- Although I was able to fix the merge method to work for other starting combinations of integer arrays, my approach was still inefficient with a lot of code that could be condensed with a different method of implementation.
+     - my crossover partner, Rachel, worked on this to create a solution that is less complex and more efficient in merging any two given queues
+
+### Challenge 3 - Reverse Queue
 - first, created the queue from an array of objects
 - used `push()` to input the data from the queue/array into the stack
 - used `pop()` to extract the data from the stack and print the full stack
