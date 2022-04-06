@@ -81,11 +81,11 @@ public class SortData {
     }
 
     public String toString() {
-        String output = "Comparisons: " + comparisons + "\nSwaps: " + swaps + "\nTime Elapsed: " + time + "\nSorted Data: ";
+        String output = "Sorted Data: ";
         for (int i=0; i < sortList.length; i++) {
             output += sortList[i] + ", ";
         }
-        output += "\n";
+        output += "\nComparisons: " + comparisons + "\nSwaps: " + swaps + "\nTime Elapsed: " + time;
         return output;
     }
 }
