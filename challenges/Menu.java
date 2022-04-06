@@ -31,6 +31,7 @@ class Menu {
     menu.put(8, new Menu("Selection Sort", () -> SelectionSort.main(null)));
     menu.put(9, new Menu("Insertion Sort", () -> InsertionSort.main(null)));
     menu.put(10, new Menu("Merge Sort", () -> MergeSort.main(null)));
+    menu.put(11, new Menu("Compare the Sorts", () -> SortData.main(null)));
 
   //text formatting of menu
   System.out.println("Choose from menu:");

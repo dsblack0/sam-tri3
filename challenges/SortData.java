@@ -88,4 +88,28 @@ public class SortData {
         output += "\nComparisons: " + comparisons + "\nSwaps: " + swaps + "\nTime Elapsed: " + time;
         return output;
     }
+
+    public static void main(String args[]){
+        System.out.print("For BubbleSort: ");
+        BubbleSort bubblesort = new BubbleSort();
+        bubblesort.sort();
+        System.out.println("Total Time: "+ bubblesort.getTime() + "\nTotal swaps: " + bubblesort.getSwaps() + "\nTotal comparisons: " + bubblesort.getComparisons());
+
+        System.out.print("For SelectionSort: ");
+        SelectionSort selection = new SelectionSort();
+        selection.sort();
+        System.out.println("Total Time: "+ selection.getTime() + "\nTotal swaps: " + selection.getSwaps() + "\nTotal comparisons: " + selection.getComparisons());
+
+        System.out.print("For InsertionSort: ");
+        InsertionSort insertion = new InsertionSort();
+        insertion.sort();
+        System.out.println("Total Time: "+ insertion.getTime() + "\nTotal swaps: " + insertion.getSwaps() + "\nTotal comparisons: " + insertion.getComparisons());
+
+        System.out.print("For MergeSort: ");
+        MergeSort merge = new MergeSort();
+        merge.sort();
+        System.out.println("Total Time: "+ merge.getTime() + "\nTotal swaps: " + merge.getSwaps() + "\nTotal comparisons: " + merge.getComparisons());
+
+        System.out.println(bubblesort);
+    }
 }
