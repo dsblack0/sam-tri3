@@ -1,5 +1,3 @@
-import java.util.*;
-
 /**
  *  Implementation of Stack, using LinkedList (previous only).
  *  December 24, 2019
