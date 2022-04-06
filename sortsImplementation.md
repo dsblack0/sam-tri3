@@ -140,5 +140,7 @@ public void mergeSort(int[] list, int[] one, int[] two, int o, int t) {
      - it requires the least amount of time to run
      - it conducts the least amount of comparisons as it is always one less than the number of elements in the list
      - Although the merge and selection sort required less swaps, the insertion sort still doesn't require much more swaps than selection sort and it doesn't require recursion like the merge sort. The insertion sort skips already sorted values, making it more efficient for smaller data sets.
-- when there is a much large set of integers, though, the **merge sort** is the best algorithm as O(nlog(n)) is a more simple algorithm than O(n^2)
+- when there is a much large set of integers, though, the **merge sort** is the best algorithm as O(nlog(n)) is smaller than O(n^2)
      - the data does not be iterated through twice as the array is continuously split in 2
+
+Order of Overall Efficiency: Merge, Insertion, Selection, Bubble
