@@ -129,18 +129,27 @@ public void mergeSort(int[] list, int[] one, int[] two, int o, int t) {
 
 | **Sort Type** | **Big O Complexity** | **Time** | **# Comparisons** | **# Swaps** |
 | ---       | ---              | ---  | ---           | ---     |
-| Bubble | O(n^2)<br>due to nested for loop | 52735490 | 24985002 | 6159635 |
-| Selection | O(n^2)<br>due to nested for loop | 29347270 | 12497500 | 4993 |
-| Insertion | O(n^2)<br>due to iteration through outside for loop and inside while loop | 57870 | 4999 | 4995 |
+| Bubble | O(n^2)<br>due to nested for loop | 18928470 | 12497500 | 6187738 |
+| Selection | O(n^2)<br>due to nested for loop | 18795660 | 12497500 | 4991 |
+| Insertion | O(n^2)<br>due to iteration through outside for loop and inside while loop | 501900 | 4999 | 4992 |
 | Merge | O(nlog(n))<br>due to the array being split in 2 and number of splits simply being dependent on the number of integers in list | 194455 | 16392 | 0 |
 
-**the same exact set of 5000 integers was used to get the analytics for all 4 sorts
+**a random set 5000 was used to get the analytics with the sort being run 12 times and the high + low data being discarded
 
-- for a set of about 5000 integers, the **insertion sort** is the best sorting algorithm
-     - it requires the least amount of time to run
-     - it conducts the least amount of comparisons as it is always one less than the number of elements in the list
-     - Although the merge and selection sort required less swaps, the insertion sort still doesn't require much more swaps than selection sort and it doesn't require recursion like the merge sort. The insertion sort skips already sorted values, making it more efficient for smaller data sets.
-- when there is a much large set of integers, though, the **merge sort** is the best algorithm as O(nlog(n)) is smaller than O(n^2)
-     - the data does not be iterated through twice as the array is continuously split in 2
+**Big O Complexity**
+![image](https://user-images.githubusercontent.com/70492417/162437081-045e6933-6058-4dfe-8eee-56abfbbdd2af.png)
+- The first 3 sorts all had the time complexity of O(n^2) while the merge sort had a time complexity of O(nlog(n)). As the graph of nlog(n) increases much slower than that of the n^2, it takes less time for the merge sort to run than any of the other sorts
+- This also makes the merge sort more efficient as it has a better consistency with the slower increase in time
 
-Order of Overall Efficiency: Merge, Insertion, Selection, Bubble
+**Time**
+- As seen in the table of data, the merge sort took a significantly less time to run than any of the other sorts. Especially when there are very large sets of data being sorted the merge sort takes much less time by using less steps
+- Sorts like the insertion sort take more time because in order to put an element in the correct place, everything else in the array may have to be moved as well
+
+**Comparisons & Swaps**
+- From the table, the insertion sort had the least amount of comparisons and swaps as it only compares each object to another once while the bubble and selection sorts have to compare them multiple times.
+- The merge sort, though, does not require any swaps to be made since the arrays are simply merged in the correct order once fully split. Since the swaps themselves are more complex than comparing two integers, the merge sorts lack of swaps makes it much more efficient
+
+**Conclusion**
+Order of Overall Efficiency (from best to worst): Merge, Insertion, Selection, Bubble
+
+- When there set of data to be sorted is very small, insertion sorts would be the most efficient since they are the fastest out of the the 3 sorts with a time complexity of O(n^2), and also require the least amount of comparisons or swaps, but as the set of data gets larger, the merge sort is much more efficient with its use of recursion and spliting + merging of the arrays.
