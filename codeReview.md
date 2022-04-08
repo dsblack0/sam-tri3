@@ -157,6 +157,7 @@ while (queueFir.hasNext() || queueSec.hasNext()) {
 }
 ```
 - this new approach allows for integers in the array to be saved in the third queue and be continuously compared to the integers in queue1 and queue2 in finding the proper ascending order
+     - this method is still not perfect, though, as the long code makes it inefficient
 
 ### Challenge 3 - Reverse Queue
 - first, created the queue from an array of objects
