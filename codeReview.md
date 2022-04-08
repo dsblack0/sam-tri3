@@ -335,4 +335,5 @@ public static void sort(Queue<Integer> initQueue) {
   //print the sorted queue
   System.out.println(initQueue);
 }
+```
      - After converting the queue into an ArrayList, I used my partner's Insertion Sort to sort the list before it was converted back into a queue and then reversed
