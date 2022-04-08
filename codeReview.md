@@ -292,3 +292,47 @@ if (token.equals("^")) {
      times.remove(Collections.min(times));
      ```
      - found the average of all the values within the array list to get final analytics
+
+## Crossover Partner Work
+### Reverse Queue
+- My partner had simply imported the Stack class in her code to implement the reverse queue so I created a custom Stack using LinkedList
+**Stack**
+- The main parts of the Stack code are the push(), pop(),, and isEmpty() methods that my partner was using in her reverse Queue code
+     - the push() method added an new LinkedList as the lifo object
+     ```
+     public void push(Object value) {
+        //new object becomes current + gets value and current lifo is as assigned as previous node
+        node = new LinkedList(value, node);
+     }
+     ```
+     - the pop() method returns the value of the poppoped object and sets the previous node to the new lifo
+     - the isEmpty() method checks if the lifo object exists to determine if the stack is empty
+     ```
+     public boolean isEmpty() {
+        return (this.node == null);
+     }
+     ```
+**Sort Queue**
+- To add some more to my partner's work, I also added a method to first sort the inputted queue before it is reversed
+```
+//method to first sort the queue using an insertion sort
+public static void sort(Queue<Integer> initQueue) {
+  //initialize arrayList of integers
+  ArrayList<Integer> arrayList = new ArrayList<>();
+
+  //pull each element from the inputted queue and add each to the arrayList
+  while (!initQueue.isEmpty()) {
+    arrayList.add(initQueue.poll());
+  }
+  //run an insertion sort on the arrayList created from the queue
+  InsertionSort sort = new InsertionSort(arrayList);
+  //get sorted array
+  arrayList = sort.getFinalArr();
+  //add each element from the now sorted arrayList back to the queue in the new, sorted order
+  for (Integer i : arrayList) {
+    initQueue.add(i);
+  }
+  //print the sorted queue
+  System.out.println(initQueue);
+}
+     - After converting the queue into an ArrayList, I used my partner's Insertion Sort to sort the list before it was converted back into a queue and then reversed
