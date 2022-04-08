@@ -135,12 +135,28 @@ public Queue<T> merged() {
 
 **Issue Update 1**
 - I was able to go back and fix this issue by creating a third queue where the compared elements are passed into during the merge process, in order to ensure that all of the integers in the queue are compared to each other as they are sorted into the merged queue
-     - this allowed for the two initial queues to be merged correctly even when the starting order was slightly different from the current testing data
-
-
-**Issue Update 2**
-- Although I was able to fix the merge method to work for other starting combinations of integer arrays, my approach was still inefficient with a lot of code that could be condensed with a different method of implementation.
-     - my crossover partner, Rachel, worked on this to create a solution that is less complex and more efficient in merging any two given queues
+     - this allowed for the two initial queues to be merged correctly for a larger variety of starting orders of the two inputed arrays
+```
+while (queueFir.hasNext() || queueSec.hasNext()) {
+   //adds smaller value to final merged queue and add larger value to a third queue
+  if ((int)fir <= (int)sec) {
+    queueMer.add(fir);
+    queueX.add(sec);
+    //remove first element from queueX so that added one is first in the iteration
+    queueX.delete();
+    QueueIterator<T> queueEx = new QueueIterator<T>(queueX);
+    fir = queueFir.next();
+    sec = queueEx.next();
+  } else {
+    queueMer.add(sec);
+    queueX.delete();
+    QueueIterator<T> queueEx = new QueueIterator<T>(queueX);
+    fir = queueEx.next();
+    sec = queueSec.next();
+  }
+}
+```
+- this new approach allows for integers in the array to be saved in the third queue and be continuously compared to the integers in queue1 and queue2 in finding the proper ascending order
 
 ### Challenge 3 - Reverse Queue
 - first, created the queue from an array of objects
