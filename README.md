@@ -3,7 +3,7 @@
 ## [Replit](https://replit.com/@dsblack0/sam-tri3-2)
 - Individual code for challenges running
 
-## Class Notes
+## Table of Contents
 
 | **Week** | **Tech Talk Topic(s)** | **Notes** | **Review Ticket**
 | ---    | ---                | ---   | --- |
