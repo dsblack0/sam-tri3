@@ -296,6 +296,7 @@ if (token.equals("^")) {
 ## Crossover Partner Work
 ### Reverse Queue
 - My partner had simply imported the Stack class in her code to implement the reverse queue so I created a custom Stack using LinkedList
+
 **Stack**
 - The main parts of the Stack code are the push(), pop(),, and isEmpty() methods that my partner was using in her reverse Queue code
      - the push() method added an new LinkedList as the lifo object
