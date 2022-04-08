@@ -269,7 +269,17 @@ if (token.equals("^")) {
 
 ## Week 3
 ### Sorts Implementation + Results
-- [Implementation](https://dsblack0.github.io/sam-tri3/sortsImplementation)
+- [Implementation & Analysis](https://dsblack0.github.io/sam-tri3/sortsImplementation)
+- Used polymorphism to create 4 subclasses for each of the sorts to extend from the super class
+     ```
+     public class SelectionSort extends SortData {
+
+     public SelectionSort() {
+        super();
+     }
+     ```
+     - the super class runs the analysis and the sort so the code doesn't have to be repeated for every sort
+     - the super class also prints the final ouputs with the toString() method after a sort has run
 
 ### Deriving Sorts' Analytics
 - used for loop to run the sort 12 times and collect analytics of time, # of comparisons, and # swaps
