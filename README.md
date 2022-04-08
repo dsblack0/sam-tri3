@@ -11,6 +11,7 @@
 | 1 | Linked Lists | [Tech Talk](https://dsblack0.github.io/sam-tri3/notes#week-1)<br>[Code Review](https://dsblack0.github.io/sam-tri3/codeReview#week-1) | [Team](https://github.com/dsblack0/stickers_for_charity/issues/21)<br>[Individual](https://github.com/dsblack0/stickers_for_charity/issues/26) |
 | 2 | Calculator (Stacks + Array Lists) | [Tech Talk](https://dsblack0.github.io/sam-tri3/notes#week-2)<br>[Code Review](https://dsblack0.github.io/sam-tri3/codeReview#week-2) | [Team](https://github.com/dsblack0/stickers_for_charity/issues/29)<br>[Individual](https://github.com/dsblack0/stickers_for_charity/issues/32) |
 | 3 | Sorts | [Code Review](https://dsblack0.github.io/sam-tri3/codeReview#week-3) | [Individual](https://github.com/dsblack0/stickers_for_charity/issues/35) |
+| 4 | Data Structures Final | [Code Review](https://dsblack0.github.io/sam-tri3/codeReview#crossover-partner-work) | [Individual](https://github.com/dsblack0/stickers_for_charity/issues/41)
 
 ## Scrum Team Web Project
 - [Repository](https://github.com/dsblack0/stickers_for_charity)
