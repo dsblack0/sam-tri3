@@ -9,7 +9,7 @@
 4. Review with study partner, Chenxin
 
 ## Study Week 1
-| Day | In Class Plans | At Home Plans |
+| Day | In Class | At Home Plans |
 | --- | ---            | ---           |
 | Monday | - | - Watch Unit 1: University Faculty Lecture<br>- Review [Unit 1 Notes](https://docs.google.com/document/u/1/d/1OYJc5A53be2sLkCj0RSXBImkKkW99okivMBGeWSDk1s/edit) + Add key concepts to Study Guide<br>- Do all Unit 1 related review quizes |
 | Tuesday | Practice MC | - Watch Unit 2: University Faculty Lecture<br>- Review [Unit 2 Notes](https://docs.google.com/document/u/1/d/1Z7ZC2eQ02dlZjETf215iGPjK4fWsHHacC15Qc-GDHGw/edit) + Add key concepts to Study Guide<br>- Do all Unit 2 related review quizes |
