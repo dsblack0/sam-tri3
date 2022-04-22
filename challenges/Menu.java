@@ -32,6 +32,10 @@ class Menu {
     menu.put(9, new Menu("Insertion Sort", () -> InsertionSort.main(null)));
     menu.put(10, new Menu("Merge Sort", () -> MergeSort.main(null)));
     menu.put(11, new Menu("Compare the Sorts", () -> SortData.main(null)));
+    menu.put(12, new Menu("2015 FRQ 1 - Diverse Array", () -> frqs.Q1_DiverseArray.main(null)));
+    menu.put(13, new Menu("2015 FRQ 2 - Hidden Word", () -> frqs.Q2_HiddenWord.main(null)));
+    menu.put(14, new Menu("2015 FRQ 3 - Sparse Array", () -> frqs.Q3_SparseArray.main(null)));
+    menu.put(15, new Menu("2015 FRQ 4 - Number Group", () -> frqs.Q4_MultipleGroups.main(null)));
 
   //text formatting of menu
   System.out.println("Choose from menu:");
@@ -41,12 +45,14 @@ class Menu {
 
     //run menu item when user inputs an integer
       int input = sc.nextInt();
+      System.out.println();
       try {
         Menu selection = menu.get(input);
         selection.getAction().run();
       } catch (Exception e) {
                     System.out.println("That is not a valid option.");
         }
+    System.out.println();
     main(null);
   }
 }
