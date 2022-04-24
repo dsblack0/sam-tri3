@@ -89,3 +89,12 @@
 - I did not submit the quiz because it contained an frq questions and I wanted to be able to reference the quiz again. I instead checked my answers with multiple sources on google.
 
 ## Unit 4
+**4.1**
+
+**4.2**
+
+**4.3**
+
+**4.4**
+
+**4.5**
