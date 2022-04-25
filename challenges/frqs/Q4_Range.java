@@ -8,11 +8,11 @@ public class Q4_Range implements Q4_NumberGroup{
         this.min = min;
         this.max = max;
     }
-
+    //CORRECTION: added implementation of contains() method
     public boolean contains(int num) {
         return num >= min && num <= max;
     }
-
+    //CORRECTION: added toString() method
     public String toString() {
         String range = "";
         for (int i = min; i<=max; i++) {

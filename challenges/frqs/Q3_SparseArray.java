@@ -18,6 +18,7 @@ public class Q3_SparseArray {
     public int getNumCols() { return numCols; }
 
     public int getValueAt(int row, int col) {
+        //CORRECTION: changed entries.length() to .size()
         for (int i=0; i < entries.size(); i++) {
             Q3_SparseArrayEntry entry = entries.get(i);
             if (entry.getRow() == row && entry.getCol() == col) {
@@ -29,6 +30,7 @@ public class Q3_SparseArray {
 
     public void removeColumn(int col) {
         int i = 0;
+        //CORRECTION: changed entries.length() to .size()
         while (i<entries.size()){
             Q3_SparseArrayEntry entry = entries.get(i);
             if (entry.getCol() == col) {
