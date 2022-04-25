@@ -27,4 +27,7 @@
 | Tuesday | 2015 MC | [Unit 2 Review Quizzes](https://dsblack0.github.io/sam-tri3/reviewQuizzes#unit-2)<br>[Study Guide](https://docs.google.com/document/d/198NGOV3adFjvWAadAoPHyDCuMUa-5k9pFFtBDyiVbJs/edit?usp=sharing) |
 | Wednesday | [MC Corrections](https://dsblack0.github.io/sam-tri3/2015mc) | [Unit 3 Review Quizzes](https://dsblack0.github.io/sam-tri3/reviewQuizzes#unit-3)<br>[Study Guide](https://docs.google.com/document/d/198NGOV3adFjvWAadAoPHyDCuMUa-5k9pFFtBDyiVbJs/edit?usp=sharing) |
 | Thursday | [2015 FRQ](https://dsblack0.github.io/sam-tri3/2015frq) | [2015 FRQ on Replit](https://dsblack0.github.io/sam-tri3/code)<br>[Unit 4 Review Quizzes](https://dsblack0.github.io/sam-tri3/reviewQuizzes#unit-4)<br>[Study Guide](https://docs.google.com/document/d/198NGOV3adFjvWAadAoPHyDCuMUa-5k9pFFtBDyiVbJs/edit?usp=sharing) |
-| Friday | Continuing Review w/ AP Daily Videos | [Unit 5 Review Quizzes](https://dsblack0.github.io/sam-tri3/code)<br>[Unit 4 Review Quizzes](https://dsblack0.github.io/sam-tri3/reviewQuizzes#unit-5)<br>[Study Guide](https://docs.google.com/document/d/198NGOV3adFjvWAadAoPHyDCuMUa-5k9pFFtBDyiVbJs/edit?usp=sharing)
+| Friday | Continuing Review w/ AP Daily Videos | [Unit 5 Review Quizzes](https://dsblack0.github.io/sam-tri3/code)<br>[Unit 4 Review Quizzes](https://dsblack0.github.io/sam-tri3/reviewQuizzes#unit-5)<br>[Study Guide](https://docs.google.com/document/d/198NGOV3adFjvWAadAoPHyDCuMUa-5k9pFFtBDyiVbJs/edit?usp=sharing) |
+
+**Progress of Review Lectures**
+![image](https://user-images.githubusercontent.com/70492417/165138018-6176c0b7-7de1-4101-baf2-f3fe83c14be7.png)
