@@ -91,10 +91,27 @@
 ## Unit 4
 **4.1**
 
+![image](https://user-images.githubusercontent.com/70492417/165088148-38b4c226-9b84-4d3e-91bf-bece83e2d968.png)
+- I did not submit the quiz because it contained an frq questions and I wanted to be able to reference the quiz again. I instead checked my answers with multiple sources on google.
+
 **4.2**
+
+![image](https://user-images.githubusercontent.com/70492417/165088637-ae3fa9b5-1acb-4148-aaff-434d3a553bb4.png)
+- I did not submit the quiz because it contained an frq questions and I wanted to be able to reference the quiz again. I instead checked my answers with multiple sources on google.
 
 **4.3**
 
+![image](https://user-images.githubusercontent.com/70492417/165090269-fe4a8ad9-adcd-4491-ab84-bfadbcb32687.png)
+- I did not submit the quiz because it contained an frq questions and I wanted to be able to reference the quiz again. I instead checked my answers with multiple sources on google.
+
 **4.4**
 
+![image](https://user-images.githubusercontent.com/70492417/165090915-44433b11-851a-405f-b6ab-3c1a9c14ca28.png)
+- I did not submit the quiz because it contained an frq questions and I wanted to be able to reference the quiz again. I instead checked my answers with multiple sources on google.
+
 **4.5**
+![image](https://user-images.githubusercontent.com/70492417/165091673-627f75f2-01e2-4e38-b821-c3b1d3945458.png)
+
+## Unit 5
+**5.7**
+![image](https://user-images.githubusercontent.com/70492417/165092615-fde90910-5f5b-458a-9239-6447efaf999a.png)
