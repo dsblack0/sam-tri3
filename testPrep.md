@@ -36,6 +36,14 @@
 | --- | ---      | ---                |
 | Monday | Work on ASI<br>Start reviewing Unit 6 | - Watch Unit 6 Lecture<br>- Review [Unit 6 Notes](https://docs.google.com/document/u/1/d/1SzmT_OWBZ-DKrdi6pSNcXcblObJIIVP_gQxNncC0azE/edit) + Condense to key concepts in Study Guide<br>- Watch AP Daily Videos |
 | Tuesday | Practice MC | - Watch Unit 7 Lecture<br>- Review [Unit 7 Notes](https://docs.google.com/document/u/1/d/1VYlZf0ovKDMiygszVDESmJkCnPGF16Y9h0jVOeHrFmE/edit) + Condense to key concepts in Study Guide<br>- Watch AP Daily Videos |
-| Wednesday | Work on ASI<br>Start reviewing Unit 8 | - Watch Unit 8 Lecture<br>- Review [Unit 8 Notes](https://docs.google.com/document/u/1/d/1-_D5glkKUbraSpn6xPaHTWJEsxrGIbYkY9OjfNsRWmQ/edit) + Condense to key concepts in Study Guide<br>- Watch AP Daily Videos |
+| Wednesday | Work on ASI<br>Correct/Review MC | - Watch Unit 8 Lecture<br>- Review [Unit 8 Notes](https://docs.google.com/document/u/1/d/1-_D5glkKUbraSpn6xPaHTWJEsxrGIbYkY9OjfNsRWmQ/edit) + Condense to key concepts in Study Guide<br>- Watch AP Daily Videos |
 | Thursday | Practice FRQ | - Watch Unit 9 Lecture<br>- Review [Unit 9 Notes](https://docs.google.com/document/u/1/d/161WC34JAIESTQ5gcLhwGYUsNwUFGxj84jnkRdqqgLrU/edit) + Condense to key concepts in Study Guide<br>- Watch AP Daily Videos |
 | Friday | ASI Presentations | - Watch Unit 10 Lecture<br>- Review [Unit 10 Notes](https://docs.google.com/document/d/1VFSfb0ckUAavhEo9I8F14-azm6sSXe9GvPjkNe2TIXg/edit?usp=sharing) + Condense to key concepts in Study Guide<br>- Watch AP Daily Videos |
+
+### Review Progress
+
+| Day | In Class | At Home/Individual |
+| --- | ---      | ---                |
+| Monday | ASI Script<br>[Unit 6 Video](https://dsblack0.github.io/sam-tri3/reviewQuizzes#unit-6) | [Unit 6 Video](https://dsblack0.github.io/sam-tri3/reviewQuizzes#unit-6) |
+| Tuesday | 2020 MC | [Unit 7 Video](https://dsblack0.github.io/sam-tri3/reviewQuizzes#unit-7) |
+| Wesnesday | [MC Corrections](https://dsblack0.github.io/sam-tri3/2020mc)<br>ASI Script | [Unit 8 Video](https://dsblack0.github.io/sam-tri3/reviewQuizzes#unit-8) |
