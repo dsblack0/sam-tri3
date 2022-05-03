@@ -13,6 +13,7 @@
 | 3 | Sorts | [Code Review](https://dsblack0.github.io/sam-tri3/codeReview#week-3)<br>[Sort Analytics](https://dsblack0.github.io/sam-tri3/sortsImplementation#analytics) | [Individual](https://github.com/dsblack0/stickers_for_charity/issues/35) |
 | 4 | Data Structures Final | [Code Review](https://dsblack0.github.io/sam-tri3/codeReview#crossover-partner-work) | [Individual](https://github.com/dsblack0/stickers_for_charity/issues/41) |
 | 5 | Study Week 1 | [AP Test Prep](https://dsblack0.github.io/sam-tri3/testPrep) | [Individual](https://github.com/dsblack0/stickers_for_charity/issues/43) |
+| 6 | Study Week 2 | [AP Test Prep](https://dsblack0.github.io/sam-tri3/testPrep) | [Individual](https://github.com/dsblack0/stickers_for_charity/issues/46) |
 
 ## Scrum Team Web Project
 - [Repository](https://github.com/dsblack0/stickers_for_charity)
