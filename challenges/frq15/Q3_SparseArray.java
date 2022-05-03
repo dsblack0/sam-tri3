@@ -1,4 +1,4 @@
-package frqs;
+package frq15;
 
 import java.util.ArrayList;
 import java.util.List;

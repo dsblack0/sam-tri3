@@ -1,4 +1,4 @@
-package frqs;
+package frq15;
 
 public class Q3_SparseArrayEntry {
     private int row;

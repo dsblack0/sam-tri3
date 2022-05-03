@@ -2,3 +2,8 @@ cd challenges
 javac *.java
 java Menu
 rm *.class
+cd frq15
+rm *.class
+cd -
+cd frq20
+rm *.class

@@ -1,4 +1,4 @@
-package frqs;
+package frq15;
 
 public interface Q4_NumberGroup {
     //CORRECTION: added contains method

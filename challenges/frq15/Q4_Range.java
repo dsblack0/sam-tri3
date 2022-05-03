@@ -1,4 +1,4 @@
-package frqs;
+package frq15;
 
 public class Q4_Range implements Q4_NumberGroup{
     private int min;

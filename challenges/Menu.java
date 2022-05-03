@@ -32,10 +32,13 @@ class Menu {
     menu.put(9, new Menu("Insertion Sort", () -> InsertionSort.main(null)));
     menu.put(10, new Menu("Merge Sort", () -> MergeSort.main(null)));
     menu.put(11, new Menu("Compare the Sorts", () -> SortData.main(null)));
-    menu.put(12, new Menu("2015 FRQ 1 - Diverse Array", () -> frqs.Q1_DiverseArray.main(null)));
-    menu.put(13, new Menu("2015 FRQ 2 - Hidden Word", () -> frqs.Q2_HiddenWord.main(null)));
-    menu.put(14, new Menu("2015 FRQ 3 - Sparse Array", () -> frqs.Q3_SparseArray.main(null)));
-    menu.put(15, new Menu("2015 FRQ 4 - Number Group", () -> frqs.Q4_MultipleGroups.main(null)));
+    menu.put(12, new Menu("2015 FRQ 1 - Diverse Array", () -> frq15.Q1_DiverseArray.main(null)));
+    menu.put(13, new Menu("2015 FRQ 2 - Hidden Word", () -> frq15.Q2_HiddenWord.main(null)));
+    menu.put(14, new Menu("2015 FRQ 3 - Sparse Array", () -> frq15.Q3_SparseArray.main(null)));
+    menu.put(15, new Menu("2015 FRQ 4 - Number Group", () -> frq15.Q4_MultipleGroups.main(null)));
+    menu.put(16, new Menu("2020 FRQ 1 - Hailstone Sequences", () -> frq20.Q1_Hailstone.main(null)));
+    menu.put(17, new Menu("2020 FRQ 2 - Game Spinner", () -> frq20.Q2_GameSpinner.main(null)));
+    menu.put(18, new Menu("2020 FRQ 3 - Review Collector", () -> frq20.Q3_ReviewCollector.main(null)));
 
   //text formatting of menu
   System.out.println("Choose from menu:");
