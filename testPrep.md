@@ -46,4 +46,7 @@
 | --- | ---      | ---                |
 | Monday | ASI Script<br>[Unit 6 Video](https://dsblack0.github.io/sam-tri3/reviewQuizzes#unit-6) | [Unit 6 Video](https://dsblack0.github.io/sam-tri3/reviewQuizzes#unit-6) |
 | Tuesday | 2020 MC | [Unit 7 Video](https://dsblack0.github.io/sam-tri3/reviewQuizzes#unit-7) |
-| Wesnesday | [MC Corrections](https://dsblack0.github.io/sam-tri3/2020mc)<br>ASI Script | [Unit 8 Video](https://dsblack0.github.io/sam-tri3/reviewQuizzes#unit-8) |
+| Wesnesday | [MC Corrections](https://dsblack0.github.io/sam-tri3/2020mc)<br>ASI Script | [Unit 8 Video](https://dsblack0.github.io/sam-tri3/reviewQuizzes#unit-8)<br>Finished correcting MC |
+| Thursday | [2020 FRQ](https://dsblack0.github.io/sam-tri3/2020frq) | [Unit 9 Video](https://dsblack0.github.io/sam-tri3/reviewQuizzes#unit-9)<br>AP Daily Videos + added material to [Study Guide](https://github.com/dsblack0/sam-tri3/blob/gh-pages/csa_studyguide.pdf) |
+| Friday | ASI Presentation | [Unit 10 Video](https://dsblack0.github.io/sam-tri3/reviewQuizzes#unit-10)<br>AP Daily Videos + added material to [Study Guide](https://github.com/dsblack0/sam-tri3/blob/gh-pages/csa_studyguide.pdf) |
+| Saturday - Sunday | N/A | AP Daily Videos<br>[Study Guide](https://github.com/dsblack0/sam-tri3/blob/gh-pages/csa_studyguide.pdf)<br>[Practice MC: 48/52](https://dsblack0.github.io/sam-tri3/reviewQuizzes#52-question-practice-mc) |
