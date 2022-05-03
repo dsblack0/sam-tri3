@@ -134,3 +134,7 @@
 ## Unit 6
 **Faculty Lecture**
 ![image](https://user-images.githubusercontent.com/70492417/165534243-7cffce10-3d8b-474a-8f78-4c1a40d7bd2f.png)
+
+## 52 Question Practice MC
+![image](https://user-images.githubusercontent.com/70492417/166409394-b9dd92d8-7668-441f-af53-77214b8c927e.png)
+
