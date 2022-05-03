@@ -38,7 +38,7 @@
 | Tuesday | Practice MC | - Watch Unit 7 Lecture<br>- Review [Unit 7 Notes](https://docs.google.com/document/u/1/d/1VYlZf0ovKDMiygszVDESmJkCnPGF16Y9h0jVOeHrFmE/edit) + Condense to key concepts in Study Guide<br>- Watch AP Daily Videos |
 | Wednesday | Work on ASI<br>Correct/Review MC | - Watch Unit 8 Lecture<br>- Review [Unit 8 Notes](https://docs.google.com/document/u/1/d/1-_D5glkKUbraSpn6xPaHTWJEsxrGIbYkY9OjfNsRWmQ/edit) + Condense to key concepts in Study Guide<br>- Watch AP Daily Videos |
 | Thursday | Practice FRQ | - Watch Unit 9 Lecture<br>- Review [Unit 9 Notes](https://docs.google.com/document/u/1/d/161WC34JAIESTQ5gcLhwGYUsNwUFGxj84jnkRdqqgLrU/edit) + Condense to key concepts in Study Guide<br>- Watch AP Daily Videos |
-| Friday | ASI Presentations | - Watch Unit 10 Lecture<br>- Review [Unit 10 Notes](https://docs.google.com/document/d/1VFSfb0ckUAavhEo9I8F14-azm6sSXe9GvPjkNe2TIXg/edit?usp=sharing) + Condense to key concepts in Study Guide<br>- Watch AP Daily Videos |
+| Friday | ASI Activity | - Watch Unit 10 Lecture<br>- Review [Unit 10 Notes](https://docs.google.com/document/d/1VFSfb0ckUAavhEo9I8F14-azm6sSXe9GvPjkNe2TIXg/edit?usp=sharing) + Condense to key concepts in Study Guide<br>- Watch AP Daily Videos |
 
 ### Review Progress
 
