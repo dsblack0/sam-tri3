@@ -1,7 +1,8 @@
 package frq20;
 
 public class Q2_GameSpinner {
-  //CORRECTION: private static int sectors; -> sectors must also be a static variable if spin is one
+  /* CORRECTION: private static int sectors; -> sectors must also be a static variable if spin is one
+  I fixed this mistake in my code to ensure that the other classes are able to run */
   private static int sectors;
   //CORRECTION: private static int runLength = 1; -> so that the run starts at a length of 1 
   private static int runLength = 0;
