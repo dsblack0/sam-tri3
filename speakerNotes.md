@@ -1,3 +1,5 @@
+{% include navigation.html %}
+
 # Speaker: Medha Parlikar
 
 - Cheif Technology Officer of Casper Labs
