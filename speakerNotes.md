@@ -58,3 +58,10 @@
      - fast, efficient
      - synchronous, partially synchronous, or fully asynchronous
      - Used by: CASPER
+
+## Keys and Accounts
+- public keys = what is on the blockchain
+     - use it to have crypto send to
+- private keys = what you see privately
+     - you use it to send your crypto - transactions are signed with it
+     - on crypto wallet
